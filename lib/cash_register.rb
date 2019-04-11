@@ -13,8 +13,9 @@ class CashRegister
   end 
   
   def apply_discount
-    @total = @total - @discount*10
-    return "After the discount, the total comes to $#{@total}."
+    if dicount > 0 
+      @total = @total - @discount*10
+      return "After the discount, the total comes to $#{@total}."
     #@total 
   end 
   
