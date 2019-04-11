@@ -16,7 +16,8 @@ class CashRegister
     if dicount > 0 
       @total = @total - @discount*10
       return "After the discount, the total comes to $#{@total}."
-    #@total 
+    else 
+      
   end 
   
   
