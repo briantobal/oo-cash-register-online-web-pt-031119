@@ -16,7 +16,6 @@ class CashRegister
     
   end 
   
-  def 
-    end
+ 
   
 end #class  
