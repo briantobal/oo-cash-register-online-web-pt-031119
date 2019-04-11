@@ -30,6 +30,7 @@ class CashRegister
   end     #def 
   
   def void_last_transaction
+    binding.pry 
     @items.pop.price 
     
   end     #def 
