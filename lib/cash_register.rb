@@ -8,6 +8,7 @@ class CashRegister
     @discount = discount 
   end 
   
+  def additem
   
   
 end #class  
