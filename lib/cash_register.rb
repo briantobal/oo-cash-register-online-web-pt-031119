@@ -27,6 +27,10 @@ class CashRegister
   
   def items 
     @items 
+  end     #def 
+  
+  def void_last_transaction
+    @items.
     
   end     #def 
   
